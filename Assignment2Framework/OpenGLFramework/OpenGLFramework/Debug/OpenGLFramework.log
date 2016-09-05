@@ -1,0 +1,25 @@
+﻿Build started 10/6/2015 8:28:12 AM.
+     1>Project "C:\Users\Jemma\Documents\School\CS_334\My Projects\Assignment2Framework\OpenGLFramework\OpenGLFramework\OpenGLFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\jemma\documents\school\cs_334\my projects\assignment2framework\openglframework\openglframework\main.cpp(287): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\jemma\documents\school\cs_334\my projects\assignment2framework\openglframework\openglframework\main.cpp(302): warning C4244: 'argument' : conversion from 'double' to 'GLuint', possible loss of data
+     1>c:\users\jemma\documents\school\cs_334\my projects\assignment2framework\openglframework\openglframework\main.cpp(302): warning C4244: 'argument' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\jemma\documents\school\cs_334\my projects\assignment2framework\openglframework\openglframework\main.cpp(313): warning C4244: 'argument' : conversion from 'double' to 'GLuint', possible loss of data
+     1>c:\users\jemma\documents\school\cs_334\my projects\assignment2framework\openglframework\openglframework\main.cpp(481): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\jemma\documents\school\cs_334\my projects\assignment2framework\openglframework\openglframework\main.cpp(706): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\jemma\documents\school\cs_334\my projects\assignment2framework\openglframework\openglframework\main.cpp(720): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jemma\documents\school\cs_334\my projects\assignment2framework\openglframework\openglframework\main.cpp(814): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jemma\Documents\School\CS_334\My Projects\Assignment2Framework\OpenGLFramework\Debug\OpenGLFramework.exe" /INCREMENTAL /NOLOGO freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jemma\Documents\School\CS_334\My Projects\Assignment2Framework\OpenGLFramework\Debug\OpenGLFramework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jemma\Documents\School\CS_334\My Projects\Assignment2Framework\OpenGLFramework\Debug\OpenGLFramework.lib" /MACHINE:X86 Debug\gl_utils.obj
+         Debug\main.obj
+         Debug\math_funcs.obj
+         Debug\obj_parser.obj
+         Debug\stb_image.obj
+         OpenGLFramework.vcxproj -> C:\Users\Jemma\Documents\School\CS_334\My Projects\Assignment2Framework\OpenGLFramework\Debug\OpenGLFramework.exe
+     1>Done Building Project "C:\Users\Jemma\Documents\School\CS_334\My Projects\Assignment2Framework\OpenGLFramework\OpenGLFramework\OpenGLFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92
